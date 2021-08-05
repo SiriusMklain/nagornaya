@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'FiraSans-Regular';
+    src: url('firasans-regular-webfont.woff') format('woff2');
+    src: url('firasans-regular-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'FiraSans-Light';
+    src: url('firasans-light-webfont.woff') format('woff2');
+    src: url('firasans-light-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {font-size:42px;}
+h2 {font-size:38px;}
+h3 {font-size:34px;}
+h4 {font-size:32px;}
+h5 {font-size:28px;}
+h6 {font-size:26px;}

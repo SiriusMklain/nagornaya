@@ -1,0 +1,33 @@
+.accordion-button{
+    font-size:16px;
+}
+.accordion-header{
+    margin-top:0px;
+}
+.accordion-menu .accordion-menu-link{
+    font-size:16px;
+    text-decoration:none;
+}
+
+.accordion-collapse-inner {
+    max-height: 300px;
+    margin: .25rem 0;
+}
+
+.accordion-collapse-inner .scrollbar-track-y {
+    background-color: rgba(0,0,0,.125);
+    border-radius: 4px;
+    right: 3px;
+    width: 2px;
+}
+
+.accordion-collapse-inner .scrollbar-thumb {
+    background: var(--bs-primary);
+    left: -2px;
+    width: 6px;
+}
+
+.accordion-collapse-inner .accordion-body {
+    padding-top: 0;
+    padding-bottom: 0;
+}

@@ -1,0 +1,188 @@
+.product {
+}
+
+.product__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.product__reviews {
+  display: flex;
+  align-items: center;
+}
+
+.product__vote {
+  color: #686D7F;
+  margin-left: 8px;
+}
+
+.product__status {
+  color: #51AD70;
+}
+
+.product__caption {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.product__title {
+  color: #2E3753;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.product__image {
+	margin-bottom: 1.5rem;
+}
+
+.product__properties {
+  margin-bottom: 2rem;
+}
+
+.product__buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.product__buttons .btn {
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 48px;
+  width: 100%;
+}
+
+.product__buttons .btn .far {
+  font-size: 20px;
+}
+
+.buy {
+  flex: 0 0 100%;
+  margin-bottom: 1rem;
+}
+
+.oneclick {
+  flex: 0 0 calc(100% - 3.3rem);
+}
+
+.favourites {
+  flex: 0 0 3rem;
+}
+
+@media (min-width: 576px) {
+  .product__buttons .btn {
+    height: 56px;
+  }
+
+  .buy {
+    flex: 0 0 calc(40% - 2.75rem);
+    margin-bottom: 0;
+  }
+
+  .oneclick {
+    flex: 0 0 calc(60% - 2.75rem);
+  }
+
+  .favourites {
+    flex: 0 0 3.5rem;
+  }
+}
+
+
+/* Price */
+.price {
+  position: relative;
+  white-space: nowrap;
+}
+
+.price:before {
+  content: '';
+  background-image: url(../../../../img/bg/bubble.png);
+  height: 48px;
+  position: absolute;
+  top: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 63px;
+  z-index: 0;
+}
+
+.price__current {
+  color: #475477;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+
+
+/* Swiper product */
+.swiper-container + .swiper-container {
+	margin-top: 1.5rem;
+}
+.swiper-product {
+	border: 1px solid rgba(163, 169, 187, 0.15);
+}
+
+.swiper-product .swiper-wrapper,
+.swiper-adittional .swiper-wrapper {
+	display: flex;
+	align-items: center;
+}
+
+.swiper-product .swiper-image {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+}
+
+.swiper-adittional .swiper-slide {
+	border: 1px solid rgba(163, 169, 187, 0.15);
+}
+
+.swiper-adittional .swiper-image {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 130px;
+	width: 100%;
+}
+
+.swiper-adittional .swiper-image img {
+	object-fit: contain;
+	object-position: center;
+	height: 100%;
+	width: 100%;
+}
+
+
+.options {
+    padding: 0.5rem 2.5rem;
+}
+
+.header__options {
+    padding: 1rem 2.5rem;
+    color: #fff;
+}
+
+.card-header span {
+    margin-left: 0.5rem;
+}
+
+/*.size {*/
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*    justify-content: space-between;*/
+/*    align-items: center;*/
+/*    margin-bottom: 2rem;*/
+/*}*/

@@ -1,0 +1,7 @@
+.footer{
+        margin-top: 60px;
+        clear: both;
+}
+.footer__contacts .header-contact__phone{
+    filter:invert(1);
+}

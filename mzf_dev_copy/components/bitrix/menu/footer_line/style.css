@@ -1,0 +1,125 @@
+.footer__subnav {
+    background-color: #2B4F91;
+    position: relative;
+    
+}
+.footer__subnav:before {
+    background-color: #2B4F91;
+    content: "";
+    position: absolute;
+    width: 100vw;
+    height: 100%;
+    top: 0;
+    left: -100vw;
+    display: block;
+    }
+.footer__subnav:after {
+    background-color: #2B4F91;
+    content: "";
+    position: absolute;
+    width: 100vw;
+    height: 100%;
+    top: 0;
+    right: -100vw;
+    display: block;
+    z-index: 0;
+    }
+.footer__subnav-title {
+    display: none;
+}
+.footer__subnav-list {
+     padding: 10px 20px;
+     display: flex;
+     flex-wrap: nowrap;
+     justify-content: space-between;
+}
+.footer__subnav-item {
+    list-style: none;
+}
+.bx-footer a.footer__subnav-link {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.footer__nav {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 330px;
+    padding: 28px 33px;
+}
+
+@media(max-width:992px) {
+    .bx-footer a.footer__subnav-title-link{
+        color: #fff;
+    }
+       .showTab .footer__subnav-list{
+        max-height: 1000px;
+        /* transition: 1s; */
+    }
+.footer__subnav {
+        /*background-color: unset;*/
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    .footer__subnav-title {
+        display: block;
+    }
+    .footer__subnav-title-link {
+        position: relative;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 200%;
+        text-transform: uppercase;
+        color: #fff;
+        text-decoration: none;
+        padding-right: 20px;
+        margin-left: 20px;
+        display: block;
+    }
+    .footer__subnav-title-link:before {
+        position: absolute;
+        content: "";
+        display: block;
+        width: 9px;
+        height: 6px;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        background-image: url(images/arrowDown_white.svg);
+        background-repeat: no-repeat;
+    }
+    .footer__subnav-list {
+        padding: 0;
+        flex-direction: column;
+        overflow: hidden;
+        max-height: 0;
+        align-self: baseline;
+        /*padding-left: 50px;*/
+        transition: 1s;
+    }
+    .footer__subnav-link {
+        padding: 5px 5px;
+        display: block;
+        text-decoration: none;
+        color: #fff;
+        font-size: 14px;
+        line-height: 200%;
+        text-transform: unset;
+    }
+    .footer__nav {
+        height: 100%;
+        flex-wrap: wrap;
+        align-content: center;
+        padding: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}

@@ -1,0 +1,24 @@
+.inner_vertical_menu#vertical-multilevel-menu a.root-item:hover {
+    background: #f2f2f2 !important;
+    color: #333;
+}
+
+#vertical-multilevel-menu li a:hover {
+    background: #2b4f91 !important;
+    color: #fff;
+}
+
+.phones a {
+    color: #ffffff !important;
+    font-size: 10px;
+    /* line-height: 22px; */
+    text-transform: uppercase;
+    display: inline-block;
+    text-decoration: none;
+    margin: 5px;
+    padding: 10px 27px !important;
+    background: #eb5757;
+    border-radius: 20px;
+}
+
+.phones a:hover { background: #ef2222;}

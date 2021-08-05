@@ -1,0 +1,16 @@
+.rating {
+	display: flex;
+}
+
+.rating__icon {
+	cursor: pointer;
+	color: #9FA3B0;
+}
+
+.rating__icon.active {
+	color: #EEAD36;
+}
+
+.rating__icon:not(:last-child) {
+	margin-right: 4px;
+}

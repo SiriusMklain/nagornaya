@@ -1,0 +1,114 @@
+div.news-list
+{
+	word-wrap: break-word;
+}
+div.news-list img.preview_picture
+{
+	float:left;
+	margin:0 4px 6px 0;
+}
+.news-date-time {
+	color:#486DAA;
+}
+.tabs__content.active{
+    display: block!important;
+}
+.news-list-partners .owl-item{
+    float: left;
+    display: inline-block;
+	text-align: center;
+}
+.news-list-partners {
+    overflow: hidden;
+}
+.tabs__caption {
+    display: flex;
+    padding: 10px 20px;
+}
+.tabs__caption li {
+    padding: 5px 20px;
+    position: relative;
+}
+.tabs__caption li.active:before {
+    position: absolute;
+	content: "";
+	bottom: -5px;
+	left: 0;
+	width: 100%;
+	height: 1px;
+	border-bottom: 1px solid #000;
+}
+.tabs__caption li.active {
+	transform: scale(1.05);
+}
+.tabs__content {
+    border-top: 1px solid #666;
+    padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	position: relative;
+}
+button.owl-next {
+    position: absolute;
+    top: 50%;
+	right: 0px;
+    transform: translateY(-50%);
+	outline: none;
+    background-color: unset;
+    border: none;
+    cursor: pointer;
+}
+button.owl-prev {
+    position: absolute;
+    top: 50%;
+	left: 0px;
+    transform: translateY(-50%);
+	outline: none;
+    background-color: unset;
+    border: none;
+    cursor: pointer;
+}
+button.owl-next span, button.owl-prev span {
+	font-size: 32px;
+}
+a.magnificPopup-video {
+    text-decoration: none;
+}
+.inner-content.container #gallery img{
+    height: 150px;
+    float: none!important;
+    max-width: 200px;
+    margin: 0px;
+}
+.gallery {
+    position: relative;
+}
+/* custom style  */
+.owl-stage-outer {
+    margin-left: 50px;
+    margin-right: 50px;
+    overflow: hidden;
+}
+button.owl-next {
+	right: 20px;
+	background-color: rgba(0, 0, 0, 0.2);
+    padding: 50px 10px;
+    height: 100%;
+}
+button.owl-prev {
+	left: 20px;
+	background-color: rgba(0, 0, 0, 0.2);
+    padding: 50px 10px;
+    height: 100%;
+}
+img.preview_picture {
+    width: 100%;
+    height: 150px;
+}
+.magnificPopup {
+	display: block;
+	user-select: none;
+}
+.inner-content.container li.thanks__social-item{
+        list-style: none;
+}

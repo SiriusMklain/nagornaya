@@ -1,0 +1,7 @@
+.nav-info__main-item > a{
+        color: #fff;
+    text-decoration: none;
+}
+.nav-info__main-item:hover > a{
+        color: #eb5757;
+}
